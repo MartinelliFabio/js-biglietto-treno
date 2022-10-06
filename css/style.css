@@ -1,0 +1,40 @@
+/* ! Utility */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --red: red;
+    --green: green;
+    --bg-main: #c7f9cc;
+}
+
+body {
+    background-color: #57cc99;
+    color: #22577a;
+}
+
+.black {
+    color: var(--black);
+}
+
+/* ! HEADER */
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background-color: #c7f9cc;
+    height: 90px;
+    color: #22577a;
+}
+
+/* ! MAIN */
+#prezzo-biglietto {
+    margin-top: 250px;
+}
+
+.container-prezzo {
+    background-color: var(--bg-main);
+    padding: 150px 50px;
+    border-radius: 50px;
+}
